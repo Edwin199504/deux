@@ -10,7 +10,7 @@ main {
 }
 div#left {
   background-color: darksalmon;
-  height: 130px;
+  height: 100px;
   aspect-ratio: 1;
   border-radius: 100%;
   background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?seed=edwin");
