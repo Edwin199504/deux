@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(255, 0, 191);
+}
+main {
+  width: 60vw;
+  margin: 100px auto 0 auto;
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1rem;
+}
+div#left {
+  background-color: darksalmon;
+  height: 130px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-image: url("https://api.dicebear.com/9.x/pixel-art/svg?seed=edwin");
+}
+div#right {
+  background-color: rgb(0, 255, 76);
+}
